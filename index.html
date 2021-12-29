@@ -40,7 +40,7 @@
         <h1 class="display-2 fw-bold">Full Stack Conference</h1>
         <p>A One-day Conference About All Things JavaScipt.</p>
 		<div class="btn-group mt-4" role="group" aria-label="Callout Buttons">
-			<button type="button" class="btn btn-primary btn-large">Register Now</button>
+			<button type="button" class="btn btn-primary btn-large" data-bs-toggle="modal" data-bs-target="#register">Register Now</button>
 			<a class="btn btn-light btn-large" href="#speakers">See Speakers</a>
 		</div>
       </div>
@@ -215,7 +215,7 @@
 					<p class="mb-1">Json Babel</p>
 				</li>        
 			</ul><!-- /schedule -->
-			 <button class="btn btn-outline-info btn-lg d-block mx-auto my-5" type="button">Don't Miss Out, Register Now</button>
+			 <button class="btn btn-outline-info btn-lg d-block mx-auto my-5" type="button" data-bs-toggle="modal" data-bs-target="#register">Don't Miss Out, Register Now</button>
 			<!-- /schedule -->
 			<!-- signup form -->
 			<hr>
@@ -270,6 +270,27 @@
 			</footer><!-- /footer -->
 		</div>
 		<!-- /.container -->
+
+		<!--=====================================
+     		FORM MODAL
+    	=====================================-->
+		<div class="modal fade" id="register" tabindex="-1" aria-labelledby="register form" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Register For Fullstack Conference</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					Form Goes Here..
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+				</div>
+			</div>
+		</div>
 		<!-- Optional JavaScript; choose one of the two! -->
 
 		<!-- Option 2: Separate Popper and Bootstrap JS -->
