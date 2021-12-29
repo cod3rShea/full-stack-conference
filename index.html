@@ -277,12 +277,16 @@
 		<div class="modal fade" id="register" tabindex="-1" aria-labelledby="register form" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<div class="modal-header">
+					<div class="modal-header bg-info text-white">
 						<h5 class="modal-title" id="exampleModalLabel">Register For Fullstack Conference</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
 						<form>
+							<div class="alert alert-warning alert-dismissible fade show" role="alert">
+								<strong>Hurry!</strong> Early bird registration ends into two days..
+								<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							</div>
 							<h5 class="mb-4">Basic Information</h5>
 							<div class="mb-3">
 								<label for="name" class="form-label">Name:</label>
@@ -301,6 +305,38 @@
 									<option value="designer">Designer</option>
 									<option value="student">Student</option> 
 								</select>
+							</div>
+							<hr class="my-4">
+							<h5 class="mb-4">Which Topics Interest you Most?</h5>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="javascript-framework">
+								<label class="form-check-label" for="javascript-framework">
+									Javascript Framework
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="javascript-library">
+								<label class="form-check-label" for="javascript-library">
+									Javascript Library
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="node-js">
+								<label class="form-check-label" for="node-js">
+									Node JS
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="build-tools">
+								<label class="form-check-label" for="build-tools">
+									Build Tools
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="es-2015">
+								<label class="form-check-label" for="es-2015">
+									ES 2015
+								</label>
 							</div>
 						</form>
 					</div>
