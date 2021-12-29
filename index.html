@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="style.css">
 		<title>Full Stack Conference</title>
 	</head>
-	<body class="mt-8">
+	<body id="home" class="mt-8" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
 		 <!-- navbar -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
@@ -48,7 +48,7 @@
 	<!-- Jumbo End -->
 		<div class="container mt-4">
 			<!-- about -->
-			<div class="row">
+			<div id="about" class="row">
 				<div class="col-lg order-lg-2">
 					<h3 class="mb-4">About Full Stack Confernce</h3>
 					<img
@@ -163,7 +163,7 @@
 			</div><!-- /speakers -->
 
 			<!-- schedule -->
-			<h2 class="display-4 text-center my-5 text-muted">Schedule</h1>
+			<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h1>
 			<ul class="list-group">
 				<li class="list-group-item">
 					<div class="d-flex justify-content-between">
